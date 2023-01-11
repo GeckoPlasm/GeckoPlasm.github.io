@@ -1,0 +1,85 @@
+body{
+	background-color: #3b3b3b;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+	background-color: #1a472a;
+	color: #FFFFFF;
+	background-position: right;
+    background-repeat: no-repeat;
+	line-height: 400%;
+	text-align: center;
+}
+
+nav{
+	background-color:  #666666;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+
+main{
+	background-image: linear-gradient(to bottom, #d4d4d4, #aaaaaa);
+	
+}
+
+h1{
+	margin-bottom: 0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+}
+
+h2{
+	color: black;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer{
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-color: #1a472a;
+}
+
+#wrapper { 
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #666666;
+	box-shadow: 3px 3px 3px #333333;
+}
+label{
+	float: left;
+	display: block;
+	text-align: right;
+	width: 140px;
+	padding-right: 5px;
+}
+input{
+	display: block;
+	margin-bottom: 20px;
+}
+textarea{
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"]{
+	margin-left: 140px;
+}
+table{
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+td, th{
+	padding: 0.5em;
+	border: 2px solid black;
+}
+td{
+	text-align: center;
+}
+.text{
+	text-align: left;
+}	
